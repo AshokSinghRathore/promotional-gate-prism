@@ -13,8 +13,8 @@ export default function Home() {
       <AboutPage />
       <AboutBottomPage />
       <ServiceIncludedPage />
-      <TestimonialsPage />
       <DemoPage />
+      <TestimonialsPage />
       <ContactPage />
     </>
   );

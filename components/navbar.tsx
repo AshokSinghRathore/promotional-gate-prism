@@ -18,21 +18,29 @@ import clsx from "clsx";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { GithubIcon, SearchIcon, Logo } from "@/components/icons";
+import { title } from "./primitives";
 
 export const Navbar = () => {
   return (
-    <NextUINavbar maxWidth="xl" position="sticky">
-      <NavbarContent className="basis-1/5 sm:basis-full" justify="center">
-        <NavbarBrand as="li" className="gap-3 max-w-fit">
+    <NextUINavbar maxWidth="full" position="sticky" className="sm:px-8">
+      
+      <NavbarContent
+        className="flex basis-1/5 sm:basis-full"
+        justify="start"
+      >
+                <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink
             className="flex justify-start items-center gap-1 text-xl"
             href="/"
           >
-            <p className="font-bold text-inherit">Prism Gate</p>
+            <p className="font-bold text-3xl">Prism <span className={title({color: 'green', fontWeight: "extrabold"})}>Gate</span></p>
             <Logo />
             <Logo />
           </NextLink>
         </NavbarBrand>
+      </NavbarContent>
+
+      <NavbarContent className="basis-1/5 sm:basis-full" justify="end">
         <ul className="hidden lg:flex gap-12 justify-center">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
@@ -49,31 +57,26 @@ export const Navbar = () => {
             </NavbarItem>
           ))}
         </ul>
-      </NavbarContent>
 
-      <NavbarContent
-        className="hidden sm:flex basis-1/5 sm:basis-full"
-        justify="end"
-      >
         <NavbarItem className="hidden sm:flex gap-2">
-          <ThemeSwitch />
+          {/* <ThemeSwitch /> */}
         </NavbarItem>
         <NavbarItem className="hidden md:flex gap-3">
           <Link
             className={buttonStyles({
-              color: "primary",
+              color: "success",
               radius: "full",
               variant: "shadow",
             })}
-            href="#demo"
+            href="#contact"
           >
             Book a Free Demo
           </Link>
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <ThemeSwitch />
+      <NavbarContent className="sm:hidden basis-1 pl-4 text-black" justify="end">
+        {/* <ThemeSwitch /> */}
         <NavbarMenuToggle />
       </NavbarContent>
 
