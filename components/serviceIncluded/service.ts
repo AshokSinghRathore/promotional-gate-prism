@@ -8,44 +8,44 @@ export interface ServiceType {
 export const services: ServiceType[] = [
   {
     id: 1,
-    title: "Automatic Staff Assignment",
+    title: "Visitor Management",
     description:
-      "This service automates the staff assignment process, ensuring that the right personnel with the necessary skills and expertise are assigned to each task.",
-    imageSrc: "/automatic-staff-assignment.jpg", // Replace with correct image path
+      "We use a six-digit passcode system for visitors, making it easy for guests to enter securely and ensuring smooth check-ins for everyone in our community.",
+    imageSrc: "/visitor.jpg", // Replace with correct image path
   },
   {
     id: 2,
-    title: "Online Customer Booking",
+    title: "Delivery Management",
     description:
-      "With Online Customer Booking, businesses can streamline their scheduling process and provide a user-friendly experience for their clients to book services at their own convenience.",
-    imageSrc: "/online-customer-booking.jpg", // Replace with correct image path
+      "If you're not available to collect your packages, you can choose the 'Leave at Gate' option to have them securely left there for you.",
+    imageSrc: "/delivery.jpg", // Replace with correct image path
   },
   {
     id: 3,
-    title: "Automatic Inventory Management",
+    title: "Daily Staff Management",
     description:
-      "Keep track of your salon’s inventory effortlessly and ensure you never run out of essential supplies.",
-    imageSrc: "/automatic-inventory-management.jpg", // Replace with correct image path
+      "Prism Gate's SmartEye attendance system verifies staff check-in and check-out times using facial recognition technology.",
+    imageSrc: "/staff.jpg", // Replace with correct image path
   },
   {
     id: 4,
-    title: "Staff Attendance Management",
+    title: "Parking Management",
     description:
-      "With Staff Attendance Management, businesses can automate attendance tracking, monitor employee punctuality, and generate comprehensive attendance reports for better insights.",
-    imageSrc: "/staff-attendance-management.png", // Replace with correct image path
+      "PrismGate's parking management system streamlines vehicle entry and exit, ensuring efficient and hassle-free parking experiences for all users.",
+    imageSrc: "/parking.jpg", // Replace with correct image path
   },
   {
     id: 5,
-    title: "Live Waiting Time",
+    title: "Admin App",
     description:
-      "Live waiting time offers a convenient way for users to check wait times remotely, saving them time and frustration by avoiding unnecessary delays.",
-    imageSrc: "/live-waiting-time.png", // Replace with correct image path
+      "The PrismGate admin app provides comprehensive management tools, allowing administrators to efficiently oversee all aspects of the society and its perations.",
+    imageSrc: "/admin.jpg", // Replace with correct image path
   },
   {
     id: 6,
-    title: "AI-driven Business Analysis",
+    title: "Amenities Management",
     description:
-      "Leverage the power of AI to optimize your salon operations and stay ahead of the competition.",
-    imageSrc: "/ai-driven-business-analysis.png", // Replace with correct image path
+      "The Amenity Management feature in the PrismGate app facilitates seamless coordination and reservation of community amenities, enhancing residents' convenience and enjoyment.",
+    imageSrc: "/amenity.jpg", // Replace with correct image path
   },
 ];

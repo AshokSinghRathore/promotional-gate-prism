@@ -11,28 +11,28 @@ export const testimonials: TestimonialType[] = [
   {
     id: 1,
     name: "Dia Malhotra",
-    role: "satisfied salon owner",
+    role: "Vista Society President",
     quote:
-      "Smart Salon Bot has transformed how I manage my salon. No more worries about staff scheduling or inventory!",
+      "Prism Gate has revolutionized our community management. Security and communication have never been more seamless!",
     rating: 4.9,
-    imageSrc: "/dia-malhotra.jpg",
+    imageSrc: "/dia-malhotra.jpg", // Keeping original image
   },
   {
     id: 2,
     name: "Anurag Vishwaas",
-    role: "salon manager",
+    role: "Society Secretary",
     quote:
-      "Implementing Smart Salon Bot was the best decision for our business. Our sales have increased significantly!",
+      "Implementing Prism Gate was the best decision for our community. Managing visitor entries and society notices is now effortless!",
     rating: 5,
-    imageSrc: "/anurag-vishwaas.jpg",
+    imageSrc: "/anurag-vishwaas.jpg", // Keeping original image
   },
   {
     id: 3,
     name: "Sunita Sharma",
-    role: "regular salon client",
+    role: "Resident",
     quote:
-      "Managing bookings and customer interactions has never been so easy. Thank you, Smart Salon Bot!",
+      "Thanks to Prism Gate, I feel safer and more connected with our society management. It's made our lives so much easier!",
     rating: 4.8,
-    imageSrc: "/sunita-sharma.jpg",
+    imageSrc: "/sunita-sharma.jpg", // Keeping original image
   },
 ];

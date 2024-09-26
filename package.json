@@ -24,6 +24,7 @@
 		"@nextui-org/switch": "2.0.33",
 		"@nextui-org/system": "2.2.5",
 		"@nextui-org/theme": "2.2.9",
+		"@nextui-org/user": "^2.0.34",
 		"@react-aria/ssr": "3.9.4",
 		"@react-aria/visually-hidden": "3.8.12",
 		"canvas-confetti": "^1.9.3",
@@ -38,13 +39,14 @@
 		"zod": "^3.23.8"
 	},
 	"devDependencies": {
+		"@types/canvas-confetti": "1.6.4",
 		"@types/node": "20.5.7",
 		"@types/react": "18.3.3",
 		"@types/react-dom": "18.3.0",
 		"@typescript-eslint/eslint-plugin": "7.2.0",
 		"@typescript-eslint/parser": "7.2.0",
-		"@types/canvas-confetti":"1.6.4",
 		"autoprefixer": "10.4.19",
+		"daisyui": "^4.12.10",
 		"postcss": "8.4.38",
 		"tailwind-variants": "0.1.20",
 		"tailwindcss": "3.4.3",

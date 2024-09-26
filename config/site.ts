@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Smart Salon Bot",
+  name: "Prism Gate",
   description:
-    "Smart Salon Bot is a revolutionary Salon Management software designed to simplify the operations of your salon. By harnessing the power of automation, it takes the place of a traditional manager, handling tasks such as Staff Management, Bookings, Inventory Management, Sales and Customer interactions without the need for a salary or incentives.",
+    "Prism Gate is a revolutionary Society Management software designed to simplify the operations of your society.",
   navItems: [
     {
       label: "Home",
@@ -14,7 +14,7 @@ export const siteConfig = {
       href: "#about",
     },
     {
-      label: "Service Included",
+      label: "Features",
       href: "#service",
     },
     {
