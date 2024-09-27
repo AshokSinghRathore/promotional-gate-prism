@@ -59,7 +59,7 @@ export const Navbar = () => {
         </ul>
 
         <NavbarItem className="hidden sm:flex gap-2">
-          {/* <ThemeSwitch /> */}
+          <ThemeSwitch />
         </NavbarItem>
         <NavbarItem className="hidden md:flex gap-3">
           <Link
