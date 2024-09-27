@@ -18,12 +18,12 @@ export const siteConfig = {
       href: "#service",
     },
     {
-      label: "Testimonials",
-      href: "#testimonials",
-    },
-    {
       label: "Demo",
       href: "#demo",
+    },
+    {
+      label: "Testimonials",
+      href: "#testimonials",
     },
     {
       label: "Contact",

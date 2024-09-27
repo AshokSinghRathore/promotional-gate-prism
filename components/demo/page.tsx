@@ -24,7 +24,7 @@ export default function DemoPage() {
         <Divider className="my-4 bg-gray-300" />
       </div>
       {/* <DemoForm /> */}
-      <iframe src="/about-bottom-video.mp4"  className="h-full w-full" />
+      <iframe src="/gate-prism-demo.mp4"  className="h-full w-full" />
       </div>
     </section>
   );

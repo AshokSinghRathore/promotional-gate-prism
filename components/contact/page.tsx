@@ -56,8 +56,8 @@ export default function ContactPage() {
         <Card className="mt-12 w-full bg-black">
           <CardBody className="text-start text-white text-md">
             {/* <p>Make beautiful websites regardless of your design experience.</p> */}
-            <h2 className="">📞 +91-9794514324</h2>
-            <h2 className="">📧 hr@code-aspire.com</h2>
+            <h2 className="">📞 +91-9336166483</h2>
+            <h2 className="">📧 info@code-aspire.com</h2>
             <h2 className="">🌐 www.codeaspire.com</h2>
           </CardBody>
         </Card>
